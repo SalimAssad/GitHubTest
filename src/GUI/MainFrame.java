@@ -31,23 +31,23 @@ public class MainFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Salim Assad Sánchez");
+        jLabel1.setText("Marco Polo Troncoso ");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(148, 148, 148)
                 .addComponent(jLabel1)
-                .addContainerGap(291, Short.MAX_VALUE))
+                .addContainerGap(150, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(143, 143, 143)
                 .addComponent(jLabel1)
-                .addContainerGap(275, Short.MAX_VALUE))
+                .addContainerGap(143, Short.MAX_VALUE))
         );
 
         pack();
